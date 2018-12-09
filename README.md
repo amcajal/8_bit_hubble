@@ -27,7 +27,7 @@ The "wet-on-wet" technique, used by Ross, serve as model to
 the application algorithms (a kind of [Painter's Algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm). 
 A comparison between Ross famous catchphrases and the algorithm [can be seen here.](@TODO)
 
-For technical details and more info, visit the [Wiki of the project]@TODO
+For technical details and more info, visit the [Wiki of the project](https://github.com/amcajal/8_bit_hubble/wiki)
 
 **8-bit Hubble** is also a proof of concept project, whose goal is to test the
 compatibility between [Safety-Critical System Software](https://en.wikipedia.org/wiki/Safety-critical_system) goals
