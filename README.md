@@ -113,7 +113,8 @@ About **libpng** and **GTK**:
 
 These libraries are third-party libraries and are NOT owned by **8-bit Hubble** author.
 
-libpng is released under the libpng license. Check the [official webpage](http://www.libpng.org/pub/png/libpng.html)
+libpng is released under the libpng license. Check the [official webpage](http://www.libpng.org/pub/png/libpng.html).
+
 GTK+ is released under GNU LGPL license. Check the [official webpage](https://developer.gnome.org/gtk3/stable/index.html)
 
 [Back to index](#index)
