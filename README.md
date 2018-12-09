@@ -1,5 +1,5 @@
 <!--- PROJECT LOGO --->
-![project_logo](https://github.com/amcajal/8_bit_hubble/blob/master/project/doc/media/8_bit_hubble_logo.png)
+![project_logo](https://github.com/amcajal/8_bit_hubble/blob/master/project/doc/media/8_bit_hubble_readme_logo.png)
 
 <!--- BADGES AND SHIELDS --->
 ![License](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)
@@ -12,7 +12,7 @@ as well as other elements like background
 color (technically, the [nebula](https://en.wikipedia.org/wiki/Nebula)) are randomly chosen.
 
 Here are some examples:
-![Galaxy_collage](@REP url to image)
+![Galaxy_collage](https://github.com/amcajal/8_bit_hubble/blob/master/project/doc/media/8bh_galaxy_collage.png)
 
 **8-bit Hubble** its a humble tribute to:
 - The [Hubble Space Telescope](http://hubblesite.org/), mankind's technological prodigy 
