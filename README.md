@@ -36,7 +36,7 @@ and "Clean Code" principles, like
 [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming),
 and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
 
-Also, the project is a sandbox for "homebrew principles", like a [5s Philosophy Directory Structure](@TODO).
+Also, the project is a sandbox for "homebrew principles", like a [5s Philosophy Directory Structure](https://github.com/amcajal/8_bit_hubble/wiki/Content-of-the-project).
 
 ---
 
@@ -62,10 +62,11 @@ Any errors will appear in the messages windows. Otherwise... enjoy!
 
 - Clone the repository: 
 ```
-$> git clone <git_url> @TODO
+$> git clone https://github.com/amcajal/8_bit_hubble.git
 ```
 
-- Modify the header file src/test/test_dirs (instructions in the very file) with @TODO
+
+- Modify the <root_dir>/project/dev/test/high_level_test/python_uat.py (instructions in the very file) with
 the proper information. Otherwise, several errors will appear during the build.
 
 - Run "setup.sh" script. It performs a full build process
@@ -85,7 +86,7 @@ $> 8_bit_Hubble_cli.exe --help
 
 - To run tests:
 ```
-$> cd integration dir @TODO
+$> cd <root_dir>/project/dev/integration
 $> make clean
 $> make all
 $> make tests
@@ -119,7 +120,7 @@ GTK+ is released under GNU LGPL license. Check the [official webpage](https://de
 
 
 ## Contributions
-**8-bit Hubble** is open to contributions! Check the related page at the Wiki of the project. @TODO
+**8-bit Hubble** is open to contributions! [Check the related page at the Wiki of the project](https://github.com/amcajal/8_bit_hubble/wiki/Page-9:-Contributions)
 
 [Back to index](#index)
 
