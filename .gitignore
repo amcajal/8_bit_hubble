@@ -1,0 +1,14 @@
+*.exe
+*.bat
+*.o
+*old
+*.png
+*.txt
+*.gcda
+*.gcno
+*.gcov
+*.dot
+*.info
+project/dev/test/coverage/*
+project/dev/test/performance/*
+!download/*
