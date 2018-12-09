@@ -1,9 +1,7 @@
 <!--- PROJECT LOGO --->
-![project_logo](@REP url to image)
+![project_logo](https://github.com/amcajal/8_bit_hubble/blob/master/project/doc/media/8_bit_hubble_logo.png)
 
 <!--- BADGES AND SHIELDS --->
-![Travis](https://img.shields.io/travis/a_m_cajal/8_bit_Hubble.svg)
-![Coveralls github](https://img.shields.io/coveralls/github/jekyll/jekyll.svg)
 ![License](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)
 
 <!--- PROJECT SUMMARY/OVERVIEW --->
@@ -29,7 +27,7 @@ The "wet-on-wet" technique, used by Ross, serve as model to
 the application algorithms (a kind of [Painter's Algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm). 
 A comparison between Ross famous catchphrases and the algorithm [can be seen here.](@TODO)
 
-For technical details and more info, visit the [Wiki of the project]@TODO
+For technical details and more info, visit the [Wiki of the project](https://github.com/amcajal/8_bit_hubble/wiki)
 
 **8-bit Hubble** is also a proof of concept project, whose goal is to test the
 compatibility between [Safety-Critical System Software](https://en.wikipedia.org/wiki/Safety-critical_system) goals
@@ -53,14 +51,12 @@ Also, the project is a sandbox for "homebrew principles", like a [5s Philosophy 
 ## Quickstart
 #### For users:
 **8-bit Hubble** is a single executable. No installation is needed.
-[Click here](@TODO) to go to the downloads page, select your version, and click on "Download" button.
+[Click here](https://github.com/amcajal/8_bit_hubble/tree/master/downloads) to go to the downloads page, select your version, and click on "Download" button.
 Once downloaded, usage is straightforward: double click on the exe and
-1. Choose directory to store the generated images
-2. Choose the image's name
-3. Optional, choose a seed for the image (it will control the random generation process)
-4. Click "Generate".
+1. Choose the image's name
+2. Optional, choose a seed for the image (it will control the random generation process)
+3. Click "Generate".
 Any errors will appear in the messages windows. Otherwise... enjoy!
-@TODO poner los pasos en una lista, tipo 1, 2, 3, y luego una imagen con las zonas a las que hace referencia rodeadas?
 
 #### For developers:
 
@@ -96,8 +92,7 @@ $> make tests
 ```
 Then, under /test/ dir, the executable can be launch
 
-- For windows, things are a little more complicated. Open the "Makefile" for more @TODO
-information, but in summary, launch the following command:
+- For windows, things are a little more complicated. Open the _Makefile_ (under <root_dir>/project/dev/integration) for more information, but in summary, launch the following command:
 ```
 $ make all TARGET=windows
 ```
@@ -110,15 +105,15 @@ $ make all TARGET=windows
 About **8-bit Hubble**:
 
 Alberto Martin Cajal is the original author of **8-bit Hubble**. 
-**8-bit Hubble** is released under GNU GPL version 3.0 license. Check LICENSE file for a full version of it, or visit the official GNU web page. @TODO
+**8-bit Hubble** is released under GNU GPL version 3.0 license. Check LICENSE file for a full version of it, or visit the [official GNU web page](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 
-About libpng and GTK:
+About **libpng** and **GTK**:
 
 These libraries are third-party libraries and are NOT owned by **8-bit Hubble** author.
 
-libpng is released under the libpng license. Check the official webpage. @TODO
-GTK+ is released under GNU LGPL license. Check the official webpage. @TODO
+libpng is released under the libpng license. Check the [official webpage](http://www.libpng.org/pub/png/libpng.html)
+GTK+ is released under GNU LGPL license. Check the [official webpage](https://developer.gnome.org/gtk3/stable/index.html)
 
 [Back to index](#index)
 
@@ -138,6 +133,7 @@ Alberto Martin Cajal at:
 - Twitter: @amartin_g23
 
 [Back to index](#index)
+
 ---
 
 #### This project has been created trying to make it useful. This project has been created in order to learn new things. But over all, this project has been created because it is fun. As Isaac Asimov said:
