@@ -25,7 +25,7 @@ and TMNT Turtles in Time serve as inspiration for the sprites of the application
 - [Bob Ross](https://en.wikipedia.org/wiki/Bob_Ross), the legendary painter. 
 The "wet-on-wet" technique, used by Ross, serve as model to
 the application algorithms (a kind of [Painter's Algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm). 
-A comparison between Ross famous catchphrases and the algorithm [can be seen here.](@TODO)
+A comparison between Ross famous catchphrases and the algorithm [can be seen here.](https://github.com/amcajal/8_bit_hubble/wiki/Page-6:-Bob-Ross-Algorithm)
 
 For technical details and more info, visit the [Wiki of the project](https://github.com/amcajal/8_bit_hubble/wiki)
 
