@@ -1,0 +1,19 @@
+# GDB running
+file ../../integration/8bh_cli_cov.exe
+exec-file ../../integration/8bh_cli_cov.exe
+# Working directory is now /integration/
+
+# The goal of this test is to check the behaviour of the program
+# when and unknown error takes place
+# To do so:
+# File: big_bang_core.c
+# Function: int start_big_bang (void) (...)
+# Line: 78
+# Description: Set "stat" variable to "1" (code for unknown error)
+
+set logging on
+break ../src/big_bang_core/big_bang_core.c:78
+run -o ./ -n name
+set var stat=1
+c
+quit

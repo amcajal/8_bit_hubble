@@ -1,0 +1,7 @@
+int offset=0;
+offset=p_c->dim_y*0;
+p_c->data[p_b->position+0+offset]=p_b->color;
+p_c->data[p_b->position+1+offset]=p_b->color;
+offset=p_c->dim_y*1;
+p_c->data[p_b->position+0+offset]=p_b->color;
+p_c->data[p_b->position+1+offset]=p_b->color;

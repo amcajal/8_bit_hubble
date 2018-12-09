@@ -1,0 +1,19 @@
+# GDB running
+file ../../integration/8bh_cli_cov.exe
+exec-file ../../integration/8bh_cli_cov.exe
+# Working directory is now /integration/
+
+# The goal of this test is to check the behaviour of the program
+# when the palette of colors cannot be initialized
+# To do so:
+# File: palette.c
+# Function: enum status initialize_palette(enum palette_type pal_type) (...) 
+# Line: 146
+# Description: set "result" variable to 1, reproducing a palette init failure
+
+set logging on
+break ../src/palette/palette.c:146
+run -o ./ -n name
+set var result=1
+c
+quit

@@ -1,0 +1,19 @@
+# GDB running
+file ../../integration/8bh_cli_cov.exe
+exec-file ../../integration/8bh_cli_cov.exe
+# Working directory is now /integration/
+
+# The goal of this test is to check the behaviour of the program
+# when a failure takes place while trying to write the PNG.
+# To do so:
+# File: image_writer.c
+# Function: enum status write_image(struct canvas *ptr_c, char *file_path, char *file_name) (...)
+# Line: 78 and 79
+# Description: set result variable to '1' (a value different from zero)
+
+set logging on
+break ../src/image_writer/image_writer.c:78
+run -o ./ -n name
+set var result=1
+c
+quit

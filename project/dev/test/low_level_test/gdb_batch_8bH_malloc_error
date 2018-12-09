@@ -1,0 +1,20 @@
+# GDB running
+file ../../integration/8bh_cli_cov.exe
+exec-file ../../integration/8bh_cli_cov.exe
+# Working directory is now /integration/
+
+# The goal of this test is to check the behaviour of the program
+# when there is no enough memory to initialize the canvas
+# To do so:
+# File: galaxy_generator.c
+# Function: enum status generate_galaxy(struct canvas *gc) (...)
+# Line: 141
+# Description: set the local pointer to 0, reproducing a lack of memory
+
+set logging on
+break ../src/galaxy_generator/galaxy_generator.c:141
+run -o ./ -n name
+set var l_p_gc->data=0
+c
+quit
+

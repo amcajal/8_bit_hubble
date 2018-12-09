@@ -1,0 +1,17 @@
+int offset=0;
+offset=N_COL*0;
+p_image->data[init_pos+1+offset]=bg_color;
+p_image->data[init_pos+2+offset]=bg_color;
+offset=N_COL*1;
+p_image->data[init_pos+0+offset]=bg_color;
+p_image->data[init_pos+1+offset]=bg_color;
+p_image->data[init_pos+2+offset]=bg_color;
+p_image->data[init_pos+3+offset]=bg_color;
+offset=N_COL*2;
+p_image->data[init_pos+0+offset]=bg_color;
+p_image->data[init_pos+1+offset]=bg_color;
+p_image->data[init_pos+2+offset]=bg_color;
+p_image->data[init_pos+3+offset]=bg_color;
+offset=N_COL*3;
+p_image->data[init_pos+1+offset]=bg_color;
+p_image->data[init_pos+2+offset]=bg_color;

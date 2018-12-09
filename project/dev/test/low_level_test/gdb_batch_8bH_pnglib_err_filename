@@ -1,0 +1,19 @@
+# GDB running
+file ../../integration/8bh_cli_cov.exe
+exec-file ../../integration/8bh_cli_cov.exe
+# Working directory is now /integration/
+
+# The goal of this test is to check the behaviour of the program
+# when output png file cannot be opened.
+# To do so:
+# File: image_writer.c
+# Function: int write_png(char* filename, int width, int height, int *buffer) (...)
+# Line: 99 and 100
+# Description: set file pointer to 0, to reproduce a failed opening operation
+
+set logging on
+break ../src/image_writer/image_writer.c:100
+run -o ./ -n name
+set var fp=0
+c
+quit
