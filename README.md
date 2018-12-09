@@ -53,12 +53,10 @@ Also, the project is a sandbox for "homebrew principles", like a [5s Philosophy 
 **8-bit Hubble** is a single executable. No installation is needed.
 [Click here](https://github.com/amcajal/8_bit_hubble/tree/master/downloads) to go to the downloads page, select your version, and click on "Download" button.
 Once downloaded, usage is straightforward: double click on the exe and
-1. Choose directory to store the generated images
-2. Choose the image's name
-3. Optional, choose a seed for the image (it will control the random generation process)
-4. Click "Generate".
+1. Choose the image's name
+2. Optional, choose a seed for the image (it will control the random generation process)
+3. Click "Generate".
 Any errors will appear in the messages windows. Otherwise... enjoy!
-@TODO poner los pasos en una lista, tipo 1, 2, 3, y luego una imagen con las zonas a las que hace referencia rodeadas?
 
 #### For developers:
 
