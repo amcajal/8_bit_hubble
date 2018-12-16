@@ -3,6 +3,7 @@
 
 <!--- BADGES AND SHIELDS --->
 ![License](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
 
 <!--- PROJECT SUMMARY/OVERVIEW --->
 **8-bit Hubble** is a desktop application that generates [PNG](https://es.wikipedia.org/wiki/Portable_Network_Graphics) images of galaxies
@@ -51,7 +52,7 @@ Also, the project is a sandbox for "homebrew principles", like a [5s Philosophy 
 ## Quickstart
 #### For users:
 **8-bit Hubble** is a single executable. No installation is needed.
-[Click here](https://github.com/amcajal/8_bit_hubble/tree/master/downloads) to go to the downloads page, select your version, and click on "Download" button.
+[Click here](https://github.com/amcajal/8_bit_hubble/tree/master/downloads) to go to the downloads page, select your version, and click on "Download" button (at the right side of the screen).
 Once downloaded, usage is straightforward: double click on the exe and
 1. Choose the image's name
 2. Optional, choose a seed for the image (it will control the random generation process)
@@ -97,6 +98,8 @@ Then, under /test/ dir, the executable can be launch
 ```
 $ make all TARGET=windows
 ```
+
+Finally, to jump right into the code, its recommended to start reading the "big_bang_core" module implementation, located at <root_dir>/project/dev/src/big_bang_core/
 
 [Back to index](#index)
 
