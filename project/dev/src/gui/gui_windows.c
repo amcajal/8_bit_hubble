@@ -101,7 +101,7 @@ call_entry_point (gchar *text, struct gui_io_param *p_giop)
             be accessed directly. */
         char *seed_label = malloc(n_seed_digits * sizeof(char));
         FILE *fp = fopen(full_path, "rb");
-        fseek(fp, 0x19D, SEEK_SET);
+        fseek(fp, 0x19B, SEEK_SET);
         fread(seed_label, sizeof(char), n_seed_digits, fp);
         fclose(fp);
         

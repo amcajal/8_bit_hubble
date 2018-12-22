@@ -39,7 +39,7 @@
 
 #define PROG_NAME "8-Bit Hubble"
 
-#define PROG_VERSION "Version 1.0.0"
+#define PROG_VERSION "Version 1.0.1"
 
 #define PROG_SUMM "Generate random pixel-art galaxy images!"
 
