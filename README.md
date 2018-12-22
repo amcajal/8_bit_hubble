@@ -3,7 +3,7 @@
 
 <!--- BADGES AND SHIELDS --->
 ![License](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.0.1-blue.svg)
 
 <!--- PROJECT SUMMARY/OVERVIEW --->
 **8-bit Hubble** is a desktop application that generates [PNG](https://es.wikipedia.org/wiki/Portable_Network_Graphics) images of galaxies
