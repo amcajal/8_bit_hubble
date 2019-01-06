@@ -5,6 +5,7 @@
 ![License](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)
 ![Version](https://img.shields.io/badge/Version-1.0.1-blue.svg)
 [![Build Status](https://travis-ci.org/amcajal/8_bit_hubble.svg?branch=master)](https://travis-ci.org/amcajal/8_bit_hubble)
+[![codecov](https://codecov.io/gh/amcajal/8_bit_hubble/branch/master/graph/badge.svg)](https://codecov.io/gh/amcajal/8_bit_hubble)
 
 <!--- PROJECT SUMMARY/OVERVIEW --->
 **8-bit Hubble** is a desktop application that generates [PNG](https://es.wikipedia.org/wiki/Portable_Network_Graphics) images of galaxies
