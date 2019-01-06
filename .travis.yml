@@ -74,4 +74,4 @@ before_install:
     - yes | sudo pip install flawfinder
   
 script:
-    - bash check_dependencies.sh
+    - bash setup.sh
