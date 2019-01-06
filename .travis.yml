@@ -66,6 +66,7 @@ addons:
             - x11proto-core-dev
             - lcov
             - libpng-dev
+            - libgtk-3-dev
             - zlib1g-dev
             - cppcheck 
 
