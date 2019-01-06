@@ -70,11 +70,11 @@ $> git clone https://github.com/amcajal/8_bit_hubble.git
 - Modify the <root_dir>/project/dev/test/high_level_test/python_uat.py (instructions in the very file) with
 the proper information. Otherwise, several errors will appear during the build.
 
-- Run "setup.sh" script. It performs a full build process
+- Run "setup.sh" script. It performs a full build process. Use bash, not sh!
 (dependency checking, executable build, tests running, coverage and performance reports, etc).
 ```
 $> cd <project root dir>
-$> sh setup.sh
+$> bash setup.sh
 ```
 
 A "setup_log.txt" is generated with the results of the build process.
@@ -96,7 +96,7 @@ Then, under /test/ dir, the executable can be launch
 
 - For windows, things are a little more complicated. Open the _Makefile_ (under <root_dir>/project/dev/integration) for more information, but in summary, launch the following command:
 ```
-$ make all TARGET=windows
+$> make all TARGET=windows
 ```
 
 Finally, to jump right into the code, its recommended to start reading the "big_bang_core" module implementation, located at <root_dir>/project/dev/src/big_bang_core/
