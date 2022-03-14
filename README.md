@@ -14,6 +14,8 @@ The galaxies are random: number of stars, its color, size, position, shape,
 as well as other elements like background
 color (technically, the [nebula](https://en.wikipedia.org/wiki/Nebula)) are randomly chosen.
 
+[Re-implementation in Go](https://github.com/amcajal/8_bit_hubble_golang) already available
+
 Here are some examples:
 ![Galaxy_collage](https://github.com/amcajal/8_bit_hubble/blob/master/project/doc/media/8bh_galaxy_collage.png)
 
